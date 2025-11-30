@@ -1,0 +1,63 @@
+:root {
+  --color-primary: #5454f8;
+  --color-secondary: #267B54;
+  --color-accent: #4088b8;
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --text-primary: #2c3e50; /* Main text - WCAG AA compliant on white */
+  --text-secondary: #64748b; /* Supporting text - improved contrast */
+  --text-tertiary: #94a3b8; /* Muted text */
+  --text-inverse: #ffffff; /* Text on dark backgrounds */
+  --surface-background: #ffffff;
+  --surface-elevated: #f8fafc; /* Cards, dropdowns */
+  --surface-overlay: #f1f5f9; /* Modals, overlays */
+  --surface-interactive: #e2e8f0; /* Hover states */
+  --border-primary: #e2e8f0; /* Main borders */
+  --border-secondary: #cbd5e1; /* Subtle borders */
+  --border-interactive: var(--color-primary); /* Focus, active borders */
+  --code-background: #f8fafc;
+  --code-text: #475569;
+  --code-keyword: #e96900; /* Light theme uses orange */
+  --code-string: #22c55e;
+  --code-number: #8b5cf6;
+  --code-comment: #94a3b8;
+  --color-primary-hover: color-mix(in srgb, var(--color-primary) 85%, black);
+  --color-secondary-hover: color-mix(in srgb, var(--color-secondary) 85%, black);
+  --surface-interactive-hover: color-mix(in srgb, var(--surface-interactive) 80%, var(--color-primary));
+  --font-size-body: clamp(1rem, 0.9rem + 0.5vw, 1.125rem); /* ~16px to 18px */
+  --font-size-h1: clamp(2rem, 1.5rem + 2.5vw, 3rem); /* ~32px to 48px */
+  --font-size-h2-h3: clamp(1.375rem, 1.2rem + 0.875vw, 1.875rem); /* ~22px to 30px */
+  --font-size-h4-h6: clamp(1.125rem, 1rem + 0.625vw, 1.375rem); /* ~18px to 22px */
+  --font-size-nav: clamp(0.875rem, 0.85rem + 0.125vw, 1rem); /* ~14px to 16px */
+  --font-size-small: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem); /* ~12px to 14px */
+  --font-size-code: clamp(0.8rem, 0.75rem + 0.25vw, 0.9rem); /* ~12.8px to 14.4px */
+}
+
+[data-theme=dark] {
+  --color-primary: #818cf8; /* Higher contrast on dark */
+  --color-secondary: #34d399;
+  --color-accent: #60a5fa;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #f87171;
+  --text-primary: #f1f5f9; /* 15.3:1 contrast ratio */
+  --text-secondary: #cbd5e1; /* 10.4:1 contrast ratio */
+  --text-tertiary: #94a3b8; /* 6.1:1 contrast ratio */
+  --text-inverse: #0f172a;
+  --surface-background: #0f172a; /* Dark navy for better contrast */
+  --surface-elevated: #1e293b; /* Elevated surfaces */
+  --surface-overlay: #334155; /* Overlays and modals */
+  --surface-interactive: #475569; /* Interactive elements */
+  --border-primary: #334155; /* Visible borders */
+  --border-secondary: #1e293b; /* Subtle separators */
+  --code-background: #1e293b;
+  --code-text: #e2e8f0;
+  --code-keyword: #60a5fa;
+  --code-string: #34d399;
+  --code-number: #a78bfa;
+  --code-comment: #64748b;
+  --color-primary-hover: color-mix(in srgb, var(--color-primary) 80%, white);
+  --color-secondary-hover: color-mix(in srgb, var(--color-secondary) 80%, white);
+  --surface-interactive-hover: color-mix(in srgb, var(--surface-interactive) 70%, var(--color-primary));
+}
