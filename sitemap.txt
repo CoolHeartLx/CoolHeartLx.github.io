@@ -1,9 +1,9 @@
+http://example.com/2025/11/30/test/
 http://example.com/friends/index.html
 http://example.com/tags/index.html
 http://example.com/about/index.html
 http://example.com/archives/index.html
 http://example.com/categories/index.html
-http://example.com/2025/11/30/test-1/
-http://example.com/2025/11/30/test/
 http://example.com/2025/11/30/hello-world/
 http://example.com/
+http://example.com/tags/%E6%97%A5%E8%AE%B0/
